@@ -5,7 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Game For Yandex</title>
     <script src="https://yandex.ru/games/sdk/v2"></script>
-    <script>
+  </head>
+  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
+   <script>
       YaGames.init({
          adv: {
             onAdvClose: wasShown => {
@@ -22,8 +24,6 @@
          window.ysdk.adv.showFullscreenAdv();
       }
    </script>
-  </head>
-  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 style="width: 80vw; height: 80vh; background: #231F20"></canvas>
     <script src="Build/FInal1.loader.js"></script>
     <script>
